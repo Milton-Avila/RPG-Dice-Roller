@@ -4,7 +4,7 @@ Uma biblioteca Python leve e extensível para interpretar e rolar dados no estil
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 ![Made with 💻](https://img.shields.io/badge/made%20with-python-blue)
-![PyPI](https://img.shields.io/pypi/v/dice-roller)
+![PyPI](https://img.shields.io/pypi/v/RPG-Dice-Roller)
 
 ## ✨ Funcionalidades
 
@@ -16,7 +16,7 @@ Uma biblioteca Python leve e extensível para interpretar e rolar dados no estil
 ## 🧙‍♂️ Exemplos de uso
 
 ```python
-from dice_roller import roll_dice, get_dice_range, get_dice_rolled
+from RPG_Dice_Roller import roll_dice, get_dice_range, get_dice_rolled
 
 print(roll_dice("2d6+1d4-2"))      # Ex: 10
 print(get_dice_range("2d6+1d4-2"))  # Ex: {'min': 3, 'max': 17}
@@ -27,13 +27,13 @@ print(get_dice_rolled())          # Total de rolagens realizadas
 Utilize o comando pypi:
 
 ```bash
-pip install rpg-dice
+pip install RPG-Dice-Roller
 ```
 
 Ou clone manualmente:
 
 ```bash
-git clone https://github.com/seu-usuario/dice-roller.git
+git clone https://github.com/Milton-Avila/Rpg-Dice-Roller.git
 cd dice-roller
 pip install .
 ```
@@ -41,7 +41,7 @@ pip install .
 ## 🛠 Estrutura do projeto
 
 ```bash
-dice_roller/
+RPG_Dice_Roller/
 ├── __init__.py
 ├── src/
 │   ├── models/
