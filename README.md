@@ -1,7 +1,7 @@
 # 🎲 Dice Roller Parser
 (Documentação em português abaixo)
 
-A lightweight and extensible Python library to parse and roll RPG-style dice (e.g., `2d6+1d4-2`). Perfect for games, Discord bots, tabletop systems, and more!
+A lightweight and extensible Python library to parse and roll RPG-style dice (e.g., `2d6+1d4-2`). Perfect for games, Discord bots, tabletop systems, and more.
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 ![Made with 💻](https://img.shields.io/badge/made%20with-python-blue)
@@ -17,8 +17,6 @@ A lightweight and extensible Python library to parse and roll RPG-style dice (e.
 ## 🧙‍♂️ Usage examples
 
 ```python
-python
-CopiarEditar
 from RPG_Dice_Roller import roll_dice, get_dice_range, get_dice_rolled
 
 print(roll_dice("2d6+1d4-2"))      # Example: 10
@@ -32,8 +30,6 @@ print(get_dice_rolled())            # Total number of rolls performed
 Install from PyPI:
 
 ```bash
-bash
-CopiarEditar
 pip install RPG-Dice-Roller
 
 ```
@@ -41,8 +37,6 @@ pip install RPG-Dice-Roller
 Or clone manually:
 
 ```bash
-bash
-CopiarEditar
 git clone https://github.com/Milton-Avila/Rpg-Dice-Roller.git
 cd dice-roller
 pip install .
@@ -52,8 +46,6 @@ pip install .
 ## 🛠 Project Structure
 
 ```bash
-bash
-CopiarEditar
 RPG_Dice_Roller/
 ├── __init__.py
 ├── src/
@@ -76,6 +68,11 @@ MIT — feel free to use it, modify it, distribute it... and if you make some mo
 Feel free to open issues, submit PRs, or suggest improvements. Feedback, bug reports, and new ideas are always welcome!
 
 ## 🎲 May the dice be ever in your favor.
+
+
+
+
+
 
 # 🎲 Dice Roller Parser
 
