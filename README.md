@@ -1,7 +1,7 @@
 # 🎲 Dice Roller Parser
 (Documentação em português abaixo)
 
-A lightweight and extensible Python library to parse and roll RPG-style dice (e.g., `2d6+1d4-2`). Perfect for games, Discord bots, tabletop systems, and more.
+A lightweight and extensible Python library to parse and roll RPG-style dice (e.g., `2d6+1d4-2`). Perfect for games, Discord bots, tabletop systems, and more!
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 ![Made with 💻](https://img.shields.io/badge/made%20with-python-blue)
@@ -17,7 +17,7 @@ A lightweight and extensible Python library to parse and roll RPG-style dice (e.
 ## 🧙‍♂️ Usage examples
 
 ```python
-from RPG_Dice_Roller import roll_dice, get_dice_range, get_dice_rolled
+from rpg_dice_roller import roll_dice, get_dice_range, get_dice_rolled
 
 print(roll_dice("2d6+1d4-2"))      # Example: 10
 print(get_dice_range("2d6+1d4-2"))  # Example: {'min': 3, 'max': 17}
@@ -46,7 +46,7 @@ pip install .
 ## 🛠 Project Structure
 
 ```bash
-RPG_Dice_Roller/
+rpg_dice_roller/
 ├── __init__.py
 ├── src/
 │   ├── models/
@@ -68,12 +68,7 @@ MIT — feel free to use it, modify it, distribute it... and if you make some mo
 Feel free to open issues, submit PRs, or suggest improvements. Feedback, bug reports, and new ideas are always welcome!
 
 ## 🎲 May the dice be ever in your favor.
-
-
-
-
-
-
+---
 # 🎲 Dice Roller Parser
 
 Uma biblioteca Python leve e extensível para interpretar e rolar dados no estilo RPG (ex: `2d6+1d4-2`). Ideal para jogos, bots de Discord, sistemas de mesa e mais.
@@ -92,7 +87,7 @@ Uma biblioteca Python leve e extensível para interpretar e rolar dados no estil
 ## 🧙‍♂️ Exemplos de uso
 
 ```python
-from RPG_Dice_Roller import roll_dice, get_dice_range, get_dice_rolled
+from rpg_dice_roller import roll_dice, get_dice_range, get_dice_rolled
 
 print(roll_dice("2d6+1d4-2"))      # Ex: 10
 print(get_dice_range("2d6+1d4-2"))  # Ex: {'min': 3, 'max': 17}
@@ -117,7 +112,7 @@ pip install .
 ## 🛠 Estrutura do projeto
 
 ```bash
-RPG_Dice_Roller/
+rpg_dice_roller/
 ├── __init__.py
 ├── src/
 │   ├── models/
